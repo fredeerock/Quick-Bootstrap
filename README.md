@@ -1,4 +1,6 @@
-Basic Bootstrap setup with Gruntfile.js, bower.json, and package.json.
+# Description
+
+Basic Bootstrap setup with Gruntfile.js, bower.json, and package.json. Also with a simple Express server.
 
 # Installation
 
