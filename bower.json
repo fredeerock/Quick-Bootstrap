@@ -1,13 +1,12 @@
 {
-    "name": "WebExpressive",
-    "version": "0.0.0",
-    "authors": [
-        "username <username@abc.com>"
-    ],
-    "description": "An awesome web application",
-    "license": "MIT",
-    "ignore": [],
-    "dependencies": {
-        "bootstrap": "latest"
-    }
+	"name": "myWebsite",
+	"version": "0.0.1",
+	"authors": [
+		"username <username@abc.com>"
+	],
+	"description": "An awesome web application",
+	"license": "MIT",
+	"dependencies": {
+		"bootstrap": "latest"
+	}
 }
