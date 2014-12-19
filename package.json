@@ -2,6 +2,10 @@
 	"name": "bower-grunt-bootstrap-express",
 	"version": "0.0.1",
 	"description": "Quick development for Bootstrap.",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/fredeerock/bower-npm-grunt-bootstrap.git"
+	},
 	"main": "server.js",
 	"scripts": {
 		"start": "node server.js"
