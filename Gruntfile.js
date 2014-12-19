@@ -1,4 +1,5 @@
 module.exports = function(grunt) {
+
     //project configuration
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
@@ -19,9 +20,4 @@ module.exports = function(grunt) {
 
     //Default Tasks
     grunt.registerTask('default', ['shell']);
-
-    //production Tasks
-    //grunt.registerTask('dist',[..]);
-
-    //test tasks
 };
