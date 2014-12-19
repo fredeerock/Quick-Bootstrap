@@ -11,8 +11,8 @@ module.exports = function(grunt) {
 					'mkdir -p public/js',
 					'cp bower_components/bootstrap/dist/css/bootstrap.css public/css/',
 					'cp bower_components/bootstrap/dist/js/bootstrap.js public/js/',
-					'mv index.html public/',
-					'mv style.css public/css/'
+					'if [ -f index.html ]; then mv index.html public/; fi',
+					'if [ -f style.css ]; then mv style.css public/css/; fi'
 				].join('&&')
 			}
 		}
